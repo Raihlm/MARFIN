@@ -1,0 +1,30 @@
+{
+  "name": "marfin-ai",
+  "version": "1.0.0",
+  "description": "Marfin AI – Market & Financial Intelligence AI Agent",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "cli": "node index.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.21.0",
+    "dotenv": "^16.4.5",
+    "express": "^5.3.0",
+    "rss-parser": "^3.13.0"
+  },
+  "keywords": [
+    "finance",
+    "ai",
+    "gemini",
+    "telegram",
+    "stock-market"
+  ],
+  "author": "Marfin AI",
+  "license": "MIT"
+}
